@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\AirParkUsers.html" />
+    <None Include="wwwroot\css\AirParkStyle.css" />
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\jquery-2.0.0.min.js" />
+    <None Include="wwwroot\js\knockout-3.4.0.js" />
+    <None Include="wwwroot\js\user.js" />
+  </ItemGroup>
+
+</Project>
